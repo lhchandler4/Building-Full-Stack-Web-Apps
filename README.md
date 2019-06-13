@@ -29,3 +29,6 @@
 - ```localhost:8080/reverse?sentence=<whatever phrase you would like to reverse>```
 - ```localhost:8080/albums```
 - ```localhost:8080/albums/new```
+
+## Acknowledgments
+- I relied heavily on the class repo for the albums portion (https://github.com/codefellows/seattle-java-401d4/tree/master/class-13/demo)
