@@ -10,6 +10,10 @@
     - will capitalize anything 
 - @GetMapping("/reverse")
     - will reverse the word order of a phrase
+-  @GetMapping("/albums")
+    - shows all the albums added so far
+-  @GetMapping("/albums/new")
+    - add a new album to the site
 
 ## Directions
 - IntelliJ
@@ -23,3 +27,5 @@
 - ```localhost:8080/hello```
 - ```localhost:8080/capitalize/<any phrase you want to capitalize>```
 - ```localhost:8080/reverse?sentence=<whatever phrase you would like to reverse>```
+- ```localhost:8080/albums```
+- ```localhost:8080/albums/new```
