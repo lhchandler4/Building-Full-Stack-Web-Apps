@@ -1,9 +1,7 @@
 package com.LukeLab11.WhatIsGoingOn.songr;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Album {
@@ -25,6 +23,9 @@ public class Album {
         this.length = length;
         this.imageUrl = imageUrl;
     }
+
+    @OneToMany(mappedBy = "album")
+    List<Song> songs;
 
     public long getId() {
         return this.id;
@@ -48,6 +49,10 @@ public class Album {
 
     public String getImageUrl() {
         return this.imageUrl;
+    }
+
+    public List<Song> getSongs() {
+        return songs;
     }
 }
 
