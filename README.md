@@ -18,6 +18,8 @@
     - shows all of the songs
 - @Getmapping("songs/new")
     - can add a song to the songs page
+- @Getmapping("details")
+    - view the songs that are in an album
 
 ## Directions
 - IntelliJ
@@ -35,6 +37,7 @@
 - ```localhost:8080/albums/new```
 - ```localhost:8080/songs```
 - ```localhost:8080/songs/new```
+- ```localhost:8080/details```
 
 ## Acknowledgments
 - I relied heavily on the class repo for the albums portion (https://github.com/codefellows/seattle-java-401d4/tree/master/class-13/demo)
